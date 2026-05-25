@@ -67,6 +67,11 @@ Abra o terminal na pasta deste projeto e execute o comando abaixo para limpar bu
 sudo make clean install
 ```
 ---
+---
+
+> 🚀 **DEPLOY RÁPIDO DISPONÍVEL:** Se você quer apenas instalar os arquivos de configuração rápidos para os terminais (`kitty`, `terminator`, `qterminal`) e configurar o ambiente gráfico `xinitrc` com segurança, **[CLIQUE AQUI PARA ACESSAR O GUIA SIMPLECONFIG](README2.md)**.
+
+---
 
 ## 📄 Licença
 
