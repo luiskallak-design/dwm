@@ -10,22 +10,16 @@ Esta é a minha build customizada do **dwm** (Dynamic Window Manager), focada em
 
 ---
 
-
-
 ## ⌨️ Atalhos Principais (Keybindings)
-
 ### 🚀 Programas e Terminais
-
 
 | Atalho | Ação |
 | :--- | :--- |
 | `Super` + `Enter` | Abre o terminal padrão (**Kitty**) |
-| `Super` + `Ctrl` + `Enter` | Abre o terminal **QTerminal** |
-| `Super` + `Shift` + `Enter` | Abre o terminal **Terminator** |
-| `Super` + `F1` | Abre/Fecha a Sanfona (Terminal de Rodapé) |
+| `Super` + `F1` | Abre a Sanfona (Terminal de Rodapé) |
+| `Ctrl` + `D` | Fecha a Sanfona (Encerra o terminal ativo) |
 
 ### 🖼️ Gerenciamento de Janelas (Ações Rápidas)
-
 
 | Atalho | Ação |
 | :--- | :--- |
