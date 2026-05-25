@@ -1,0 +1,10 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#0f0f14"
+    foreground_color = "#ffffff"
+    scrollbar_position = hidden
+    show_titlebar = False
+[layouts]
+[plugins]

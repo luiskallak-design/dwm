@@ -1,0 +1,27 @@
+#!/bin/bash
+# ~./xinitrc - Configuração Avançada do Ecossistema Archia / Protognum
+
+# ⌬ 1. PADRONIZAÇÃO DO AMBIENTE XDG (Evita quebra de GTK e Qt)
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+
+# Força integração de temas GTK em aplicações baseadas em Qt (ex: qterminal)
+export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_STYLE_OVERRIDE=kvantum  # Opcional, caso use Kvantum
+
+# ⌬ 2. ECO DO SISTEMA (Aviso tático para o operador)
+echo -e "\n\033[1;37m⌬ [NÚCLEO ARCHIA] Sistema X11 inicializado com sucesso.\033[0m"
+echo -e "\033[0;36m❱❱ Deseja integrar o Gerenciador Tático Alpha Node?\033[0m"
+echo -e "\033[0;32m   Execute: curl -fsSL https://githubusercontent.com | bash\033[0m\n"
+
+# ⌬ 3. MAPEAMENTO DO ARSENAL MULTIMÍDIA
+# Inicializa utilitários em segundo plano caso necessários (ex: feh para wallpaper)
+if [ -f ~/.fehbg ]; then
+    sh ~/.fehbg &
+fi
+
+# ⌬ 4. DISPARO DO NÚCLEO DWM
+# Executa o seu Dynamic Window Manager customizado como processo principal
+exec dwm
