@@ -66,4 +66,9 @@ Abra o terminal na pasta deste projeto e execute o comando abaixo para limpar bu
 ```bash
 sudo make clean install
 ```
+---
+
+## 📄 Licença
+
+Este projeto mantém a licença **MIT** original da Suckless. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
