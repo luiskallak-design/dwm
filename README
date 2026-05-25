@@ -2,9 +2,14 @@
 
 Esta é a minha build customizada do **dwm** (Dynamic Window Manager), focada em um visual moderno, layouts inteligentes e máxima produtividade.
 
+<p align="center">
+  <img src="./termdwm.png" alt="Demonstração do Meu DWM" width="100%">
+</p>
+
 > 💡 **Nota sobre a tecla modificadora:** A tecla principal (`MODKEY`) configurada nesta build é a tecla **Super** (também conhecida como tecla Windows).
 
 ---
+
 
 ## ⌨️ Atalhos Principais (Keybindings)
 
