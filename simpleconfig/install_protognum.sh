@@ -1,5 +1,5 @@
 #!/bin/bash
-# install_protognum.sh - Script de um clique para o peão
+# install_protognum.sh - 
 
 CYAN='\033[0;36m'
 GREEN='\033[0;32m'
