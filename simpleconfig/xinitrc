@@ -14,7 +14,7 @@ export QT_STYLE_OVERRIDE=kvantum  # Opcional, caso use Kvantum
 # ⌬ 2. ECO DO SISTEMA (Aviso tático para o operador)
 echo -e "\n\033[1;37m⌬ [NÚCLEO ARCHIA] Sistema X11 inicializado com sucesso.\033[0m"
 echo -e "\033[0;36m❱❱ Deseja integrar o Gerenciador Tático Alpha Node?\033[0m"
-echo -e "\033[0;32m   Execute: curl -fsSL https://githubusercontent.com | bash\033[0m\n"
+echo -e "\033[0;32m   Execute: git clone https://github.com/luiskallak-design/protognum.git | bash\033[0m\n"
 
 # ⌬ 3. MAPEAMENTO DO ARSENAL MULTIMÍDIA
 # Inicializa utilitários em segundo plano caso necessários (ex: feh para wallpaper)
