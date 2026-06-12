@@ -52,21 +52,42 @@ Esta é a minha build customizada do **dwm** (Dynamic Window Manager), focada em
 | `Super` + `Shift` + `Q` | Encerra o DWM (Sair do Sistema) |
 
 ---
-
-## 🛠️ Como Instalar e Compilar
+## 🛠 Como Instalar e Compilar
 
 ### 1. Instalar as dependências (Debian/Ubuntu)
+
 Antes de compilar, certifique-se de ter as ferramentas necessárias instaladas no seu sistema:
+
 ```bash
 sudo apt install make gcc libx11-dev libxft-dev libxinerama-dev
 ```
 
-### 2. Compilar e Instalar
-Abra o terminal na pasta deste projeto e execute o comando abaixo para limpar builds antigas e instalar a nova:
+### 2. Instalação Rápida (Linha Única)
+
+Copie e cole o comando abaixo para clonar, entrar na pasta e instalar tudo de uma vez só:
+
 ```bash
-sudo make clean install
+git clone https://github.com/luiskallak-design/dwm && cd dwm && sudo make clean install
 ```
----
+
+### 3. Instalação Manual (Passo a Passo)
+
+Caso prefira executar as etapas separadamente:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/luiskallak-design/dwm
+   ```
+
+2. **Entre na pasta do projeto:**
+   ```bash
+   cd dwm
+   ```
+
+3. **Compile e instale o sistema:**
+   ```bash
+   sudo make clean install
+   ```
 ---
 
 > 🚀 **DEPLOY RÁPIDO DISPONÍVEL:** Se você quer apenas instalar os arquivos de configuração rápidos para os terminais (`kitty`, `terminator`, `qterminal`) e configurar o ambiente gráfico `xinitrc` com segurança, **[CLIQUE AQUI PARA ACESSAR O GUIA SIMPLECONFIG](README2.md)**.
